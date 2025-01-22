@@ -186,12 +186,19 @@ main>section {
         flex-direction: column;
     }
 
-    .temImageContainer {
+    .temImageContainer , .factsContainer {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .ourFeatures {
         margin-left: 20px;
+    }
+    .factsContainer{
+        justify-items: center;
+        gap: 24px;
+    }
+    .fact{
+        padding: 10px;
     }
 
 }
@@ -207,5 +214,6 @@ main>section {
     .ourFeatures {
         margin-left: 50px;
     }
+      
 
 }
