@@ -299,6 +299,7 @@ main>section {
         margin-left: 10px;
         margin-right: 10px;
     }
+    /* Footer Styles */
 
     .footerContent{
         padding: 30px 20px;
@@ -323,16 +324,19 @@ main>section {
         margin-left: 50px;
     }
 
-    .sponsorsCompany,
-    .factsContainer ,.features {
+    .sponsorsCompany,.factsContainer ,{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
     }
     #experienceBadge{
         margin-top: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 200px;
+        
+    }
+    .features{
+        flex-direction: column;
+        align-items: center;
     }
     .footerContent{
         padding: 30px 100px;
