@@ -175,6 +175,20 @@ main>section {
     font-size: 1rem;
     font-weight: 400;
 }
+/* Sponsors Related STyles */
+
+.sponsorInfo{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsorsCompany{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sponsorsCompany img{
+    filter: grayscale(100%);
+}
 
 
 
@@ -186,7 +200,7 @@ main>section {
         flex-direction: column;
     }
 
-    .temImageContainer , .factsContainer {
+    .temImageContainer , .factsContainer , .sponsorsCompany {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -200,8 +214,13 @@ main>section {
     .fact{
         padding: 10px;
     }
+    .sponsorsCompany{
+        justify-items: center;
+        gap: 30px;
+    }
 
 }
+
 
 /* Medium size device */
 
@@ -213,6 +232,11 @@ main>section {
 
     .ourFeatures {
         margin-left: 50px;
+    }
+    .sponsorsCompany , .factsContainer{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 50px;
+        justify-items: center;
     }
       
 
