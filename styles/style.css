@@ -93,3 +93,11 @@
     width: 100%;
 }
 
+/* Responsive   Media Query */
+@media screen and (max-width:576px) {
+
+    .navBar {
+        flex-direction: column;
+    }
+    
+}
