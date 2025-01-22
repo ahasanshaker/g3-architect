@@ -240,7 +240,25 @@ main>section {
     filter: grayscale(100%);
 }
 
+/* Footer Styles */
+    footer{
+        max-width: 1440px;
+        align-items: center;
+        margin: 100px auto;
+        
+        
+    }
 
+    .footerContent{
+        padding: 30px 400px;
+        background-color: #FFF4E7;
+        border-radius: 10px;
+        font-weight: 400px;
+        font-size: 1rem;
+        text-align: center;
+
+        
+    }
 
 /* Responsive   Media Query */
 @media screen and (max-width:576px) {
@@ -282,6 +300,14 @@ main>section {
         margin-right: 10px;
     }
 
+    .footerContent{
+        padding: 30px 20px;
+        background-color: #FFF4E7;
+        border-radius: 10px;
+        text-align: center;
+
+        
+    }
 }
 
 
@@ -307,6 +333,14 @@ main>section {
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .footerContent{
+        padding: 30px 100px;
+        background-color: #FFF4E7;
+        border-radius: 10px;
+        text-align: center;
+
+        
     }
 
 
